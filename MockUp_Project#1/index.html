@@ -20,25 +20,25 @@
 				 <div class="col-md-6">
 					 
 				 		<img class="profile-picture img-circle" src="images/profile-picture.jpg" alt="">
-					 
-				</div> 
-				 <div class="col-md-6 text-right text-uppercase">
-					
+				 </div> 
+				 <div class="col-md-6 text-right text-uppercase">	
 					  <h1 class="text-super text-thin">Andrés Díaz</h1> 
 					  <h4>Front-End Ninja</h4>
-			
 				 </div>
-				 
-			</div>
-			<div class="row">
-				<div class="col-md-12"><hr></div>
 			</div>
 			<div class="row">
 				<div class="col-md-12">
-				<div class="caption-container img-rounded">
-			 		<img src="images/banner.png" alt="" class="img-responsive"  />	
-			 		<div  class="caption-text"><p style="color:white" class="text-center text-uppercase text-super">HTML5 / css3 / JAVASCRIPT</p></div>
-			 		</div>
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="caption-container img-rounded">
+				 		<img src="images/banner.png" alt="Welcome Banner" class="img-responsive"  />	
+				 		<div  class="caption-text">
+				 			<p class="text-center text-uppercase text-super">HTML5 / css3 / JAVASCRIPT</p>
+				 		</div>
+				 	</div>
 				</div>
 			</div>
 			<div class="row">
@@ -49,33 +49,41 @@
 			<div class="row"> 
 
 				<div class="col-md-4">
-					<img src="images/office.png"   alt="" class="img-responsive img-rounded" data-toggle="modal" data-target="#project1" />
+					<img src="images/office.png"   alt="Projects" class="img-responsive img-rounded" data-toggle="modal" data-target="#modal_project1" />
 					<h3 class="text-uppercase text-center">projects</h3>
-					<p class="text-center">http://github.com/adiazwise</p>
+					<p class="text-center">
+					<a  href='https://github.com/adiazwise/NanoDegreeProjects.git'>
+						Look at here my projects!
+					</a>
+					</p>
 				</div>
 				<div class="col-md-4">
-					<img src="images/trips.png" alt="" class="img-responsive img-rounded"  data-toggle="modal" data-target="#porfolio-framework"/>
+					<img src="images/trips.png" alt="Trips" class="img-responsive img-rounded"  data-toggle="modal" data-target="#modal_trips"/>
 					<h3 class="text-uppercase text-center">trips</h3>
-					<p class="text-center">ttp://mypage.com/porfolio</p>
+					<p class="text-center"><a href="ttp://adiazlabs.com/trips">See my trips</a></p>
 				</div>
 				<div class="col-md-4">
-					<img src="images/bike.png"  alt="" class="img-responsive img-rounded" data-toggle="modal" data-target="#clients"/>
+					<img src="images/bike.png"  alt="Photographs" class="img-responsive img-rounded" data-toggle="modal" data-target="#modal_photographs"/>
 					<h3 class="text-uppercase text-center">photographs</h3>
-					<p class="text-center">http://mypage.com/photographs</p>
+					<p class="text-center">
+					<a href="http://adiazlabs.com/photographs"> See my photographs</a>
+					</p>
 				</div> 
 			</div>
 		</div>
-		<!-- Modal 1-->
-<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<!-- Modal 1-->
+<div class="modal fade" id="modal_project1" tabindex="-1" role="dialog" aria-labelledby="myModalProject" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">Projects</h4>
+        <h4 class="modal-title" id="myModalProject">Projects</h4>
       </div>
       <div class="modal-body">
-        <img  class="img-responsive img-rounded" src="images/office.png" >
-
-        This is my repository look at my code here 
+        <img  class="img-responsive img-rounded" src="images/office.png" alt="Projects">
+		<p>
+			Recently I began the new program named "Front-End Web Developer Nanodegree" in Udacity. I feel excited because I'm learning a lot of things in the process.
+		</p>
+        
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -84,15 +92,15 @@
   </div>
 </div>
 <!-- Modal 2-->
-<div class="modal fade" id="porfolio-framework" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="modal_trips" tabindex="-1" role="dialog" aria-labelledby="myModalTrips" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">Trips</h4>
+        <h4 class="modal-title" id="myModalTrips">Trips</h4>
       </div>
       <div class="modal-body">
-        <img class="img-responsive img-rounded"  src="images/trips.png"  >
-        Pictures from my last trip
+        <img class="img-responsive img-rounded"  src="images/trips.png" alt="Trips"  >
+       <p> Pictures from my last trip</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -102,15 +110,15 @@
 </div>
 <!--Modal 3-->
 
-<div class="modal fade " id="clients" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade " id="modal_photographs" tabindex="-1" role="dialog" aria-labelledby="myModalPhotographs" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">Photographs</h4>
+        <h4 class="modal-title" id="myModalPhotographs">Photographs</h4>
       </div>
       <div class="modal-body">
-        <img class="img-responsive img-rounded" src="images/bike.png" >
-       
+        <img class="img-responsive img-rounded" src="images/bike.png" alt="Photographs">
+       	
         <ul>
         	<li>Gallery 1</li>
         	<li>Gallery 2</li>
@@ -129,7 +137,7 @@
 </div>
 
 <footer class="text-center">
- 	
-	Copyright 2014 Andrés Díaz</footer>
+	Copyright 2014 Andrés Díaz
+</footer>
 	</body>
 </html>
